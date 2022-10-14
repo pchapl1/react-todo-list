@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.toDoListContainer h1 {
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+.toDoListItem {
+  background-color: white;
+  display: flex;
+  margin: 3rem 5rem;
+  flex-direction: column;
+  padding: 10px;
+  color: black;
+}
+
+.toDoListItem h2 {
+  text-align: center;
+}
+
+.toDoForm {
+  border: 3px solid white;
+  padding: 4rem;
+  margin: 4rem 0;
+}
+
+button {
+  background-color: #61dafb!important;
+  margin-top: 3rem;
+}
